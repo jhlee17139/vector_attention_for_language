@@ -56,7 +56,6 @@ def _scaled_dot_product_attention(
     return output, attn
 
 
-# 현재 코드는 query, key, value의 shape가 동일해야함
 def _vector_product_attention(
         q: Tensor,
         k: Tensor,
